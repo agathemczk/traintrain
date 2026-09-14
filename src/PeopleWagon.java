@@ -1,3 +1,3 @@
-public class PeopleWagon extends Wagon {
+public class PeopleWagon {
 
 }

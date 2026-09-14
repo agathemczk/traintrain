@@ -1,2 +1,2 @@
-public abstract class TrainElement {
+public abstract class TrainElement implements Displayable {
 }

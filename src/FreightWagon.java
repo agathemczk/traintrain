@@ -1,4 +1,4 @@
-public class FreightWagon extends Wagon {
+public class FreightWagon {
 
 
 }
