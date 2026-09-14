@@ -1,13 +1,16 @@
-public enum ESprite {
+public enum ESprite implements Sprite {
     MOTO('%'),
     PEOPLE('☺'),
     FLAVOR('f');
 
-    private final char charSprite;
+    private char charSprite;
 
-    private ESprite(final char charSprite) {
+    ESprite(final char charSprite) {
         this.charSprite = charSprite;
     }
 
-
+    @Override
+    public char getChar() {
+        return this.charSprite;
+    }
 }
